@@ -11,7 +11,7 @@ just use sqlmap, I leave you an example:
 
 ``` bash
 
-C:\Tools\sqlmapproject> python sqlmap.py -u "http://example.com/path/page.asp?id=1" --dbms "Microsoft SQL Server" -auth-type=NTLM -auth-cred="domain\user:pass" --all --dbs --risk 3 --level 5
+C:\Tools\sqlmapproject> python sqlmap.py -u "http://example.local/path/page.asp?id=1" --dbms "Microsoft SQL Server" -auth-type=NTLM -auth-cred="domain\user:pass" --all --dbs --risk 3 --level 5
 ```
 
 ### Credits:
